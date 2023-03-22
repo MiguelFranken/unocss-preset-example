@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "paths": {
+      "@denkwerk/unocss-preset": ["./packages/unocss-preset/src/index.ts"],
+    }
+  },
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/examples/**",
+  ]
+}

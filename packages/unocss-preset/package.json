@@ -1,0 +1,35 @@
+{
+  "name": "@denkwerk/unocss-preset",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "sideEffects": false,
+  "scripts": {
+    "build": "unbuild",
+    "dev": "vitest dev",
+    "lint": "eslint --cache --ext .ts,.js,.mjs,.cjs .",
+    "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix",
+    "prepack": "pnpm run build"
+  },
+  "devDependencies": {
+    "vitest": "^0.29.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ]
+}
