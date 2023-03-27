@@ -24,7 +24,10 @@ importers:
 
   packages/unocss-preset:
     specifiers:
+      '@unocss/core': ^0.50.6
       vitest: ^0.29.3
+    dependencies:
+      '@unocss/core': 0.50.6
     devDependencies:
       vitest: 0.29.5
 
@@ -916,6 +919,10 @@ packages:
       '@typescript-eslint/types': 5.55.0
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@unocss/core/0.50.6:
+    resolution: {integrity: sha512-WMIp8xr7YSlID2whqfRGLwagp59e6u4ckPACEpoDOW8sTeSPRZm54hxPhuWXD1SQuqcwHPMtM9nzGD8UOnqQxA==}
+    dev: false
 
   /@vitest/expect/0.29.5:
     resolution: {integrity: sha512-gDIafqKvpXlhbbaZWmL/CrJycBo6wT3/67BzsD6OFVTzOgeIOIhg27ysy8bJ3NWlaDqAxvnm+71wfzztIBFU9g==}
