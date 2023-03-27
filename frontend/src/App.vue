@@ -1,3 +1,3 @@
 <template>
-  <div class="m-8">Hello World</div>
+  <div class="m-16">Hello World</div>
 </template>
