@@ -9,4 +9,6 @@ const i18n = createI18n({
   messages
 })
 
+import './assets/main.scss'
+
 createApp(App).use(i18n).mount('#app')

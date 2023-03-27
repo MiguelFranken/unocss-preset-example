@@ -4,5 +4,5 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div>{{ t('container.greeting') }}</div>
+  <div class="m-8">{{ t('container.greeting') }}</div>
 </template>
