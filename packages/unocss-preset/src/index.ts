@@ -1,7 +1,8 @@
 import {Preset, Rule} from "@unocss/core";
 
 const rules: Rule[] = [
-  ['m-16', { margin: '4rem' }]
+  [/^m-(\d+)$/, ([, d]) => ({ margin: `${+d / 4}rem` })],
+  [/^p-(\d+)$/, ([, d]) => ({ padding: `${+d / 4}rem` })],
 ]
 
 export const presetMini = (): Preset => {
