@@ -10,5 +10,6 @@ const i18n = createI18n({
 })
 
 import './assets/main.scss'
+import 'uno.css'
 
 createApp(App).use(i18n).mount('#app')
