@@ -31,5 +31,8 @@
   "files": [
     "dist",
     "*.d.ts"
-  ]
+  ],
+  "dependencies": {
+    "@unocss/core": "^0.50.6"
+  }
 }
