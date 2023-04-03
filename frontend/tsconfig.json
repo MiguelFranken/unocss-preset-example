@@ -11,6 +11,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["@intlify/unplugin-vue-i18n/messages"]
   }
 }
