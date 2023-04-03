@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+</script>
+
 <template>
-  <div class="m-16 p-8">Hello World</div>
+  <div>{{ t('container.greeting') }}</div>
 </template>
